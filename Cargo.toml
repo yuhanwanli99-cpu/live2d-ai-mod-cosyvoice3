@@ -1,0 +1,20 @@
+[package]
+name = "live2d-ai-mod-cosyvoice3"
+description = "CosyVoice3 本地 TTS sidecar 守护 Mod（2026-11-10）：探活 / 拉起 / 收尾 Windows 上的 D:/live2dai/tts-cosyvoice3/start.cmd（Windows 原生的 HTTP 8011，不需要 WSL2）；不写 [tts]、不做推理、不下载权重"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.92"
+license = "AGPL-3.0-only"
+authors = ["Sakura Motion Project"]
+
+[dependencies]
+live2d-ai-mod-system = { path = "../Live2D-Ai/crates/live2d-ai-mod-system" }
+serde_json = "1"
+
+[lints.rust]
+unsafe_code = "deny"
+
+[lints.clippy]
+all = "warn"
+
+[workspace]

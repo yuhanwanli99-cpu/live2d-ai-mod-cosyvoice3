@@ -1,0 +1,6 @@
+# Rust
+/target/
+
+# 本 Mod 不携带 sidecar：服务端（server.py / start.cmd / 参考音频 / 权重）在
+# D:/live2dai/tts-cosyvoice3，不属于这个仓库。
+*.log
